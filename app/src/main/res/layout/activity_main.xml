@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@drawable/ex_img01"
     tools:context=".MainActivity">
 
     <ImageView
@@ -72,6 +71,7 @@
             android:text="남성"/>
 
         <RadioButton
+            android:enabled="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="공개안함"/>
@@ -87,6 +87,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="마케팅 등 수신에 동의합니다."
         android:checked="true"/>
 
